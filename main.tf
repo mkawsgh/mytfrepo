@@ -10,3 +10,7 @@ tags = {
 Name = "mytfdemovm"
 }
 }
+
+resource "aws_s3_bucket" "one" {
+  bucket = "my-hcp-tfdemo-test-bucket183645"
+}
